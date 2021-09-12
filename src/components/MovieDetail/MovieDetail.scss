@@ -1,0 +1,137 @@
+.movie__detail {
+  /* height: 100vh; */
+  //min-height: calc(100vh - 70px - 95px - 54px - 75px );
+  min-height: calc(100vh - 70px - 95px);
+  margin-top: 25px;
+
+  &__inner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    color: #fff;
+  }
+
+  &__left {
+    /* width: 30%; */
+    max-width: 400px;
+    padding: 0 15px;
+  }
+
+  &__right {
+    /* width: 70%; */
+    width: 900px;
+    /* margin-left: 20px; */
+    padding: 0 15px;
+  }
+
+  &__img {
+    width: 270px;
+    /* width: 100%; */
+    border-radius: 15px;
+    border: 3px solid #fff;
+    margin-bottom: 20px;
+  }
+
+  &__info {
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 700;
+
+    &__inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+  }
+
+  &__bookmark {
+    cursor: pointer;
+  }
+
+  &__bookmark img {
+    width: 25px;
+    height: 25px;
+  }
+
+  &__subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__year {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  &__rating {
+    display: flex;
+    align-items: center;
+  }
+
+  &__rating img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+  }
+
+  &__descr {
+    /* width: 700px; */
+    font-size: 1.2rem;
+    //margin-top: 10px;
+  }
+
+  &__genres {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 8px 0;
+    //margin-top: 8px;
+    font-size: 1rem;
+  }
+
+  &__genre {
+    padding: 3px 12px;
+    border: 2px solid #fff;
+    height: 20px;
+    min-width: 12px;
+    border-radius: 16px;
+    margin: 12px 12px 0 0;
+    //margin-left: 0;
+    //margin-right: 12px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 731px) {
+  .movie__detail {
+    &__inner {
+      flex-wrap: wrap;
+    }
+  }
+}
+
+@media (max-width: 475px) {
+  .movie__detail {
+    &__img {
+      width: 230px;
+    }
+
+    &__title {
+      font-size: 1.55rem;
+    }
+
+    &__descr {
+      font-size: 1rem;
+    }
+  }
+
+  .comments__title {
+    font-size: 1.55rem;
+  }
+}

@@ -1,0 +1,45 @@
+.movie__card {
+  width: 270px;
+  padding: 0 13px;
+  margin-bottom: 25px;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+
+  &__img {
+    width: 100%;
+    border-radius: 15px;
+    border: 3px solid #fff;
+  }
+
+  &__title {
+    margin-top: 8px;
+  }
+
+  &__descr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+
+  }
+
+  &__rating {
+    display: flex;
+    align-items: center;
+  }
+
+  &__rating img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 475px) {
+  .movie__card__link {
+    display: flex;
+    justify-content: center;
+  }
+}
+

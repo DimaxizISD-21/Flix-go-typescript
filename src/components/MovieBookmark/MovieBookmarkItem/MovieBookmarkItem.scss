@@ -1,0 +1,19 @@
+.movie__bookmark__item {
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1b1e21;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+@media(max-width: 642px) {
+  .movie__bookmark {
+    &__item {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+}

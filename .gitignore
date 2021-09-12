@@ -11,6 +11,11 @@
 # production
 /build
 
+# idea
+.idea
+.idea/inspectionProfiles/
+.idea/vcs.xml
+
 # misc
 .DS_Store
 .env.local

@@ -1,0 +1,30 @@
+.not__found {
+  margin-top: 25px;
+  min-height: calc(100vh - 70px - 95px);
+  padding: 0 25px;
+  color: white;
+
+  &__title {
+    text-align: center;
+    span {
+      color: #f73859;
+    }
+
+    a {
+      color: white;
+    }
+  }
+
+  &__redirect {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+}
+
+@media(max-width: 475px) {
+  .not__found {
+    min-height: calc(100vh - 120px - 95px);
+  }
+}
