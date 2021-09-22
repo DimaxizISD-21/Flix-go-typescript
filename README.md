@@ -1,7 +1,7 @@
-#### Flix Go project
+## Flix Go project
 **Used Technologies:** React, React Hooks, Redux Toolkit, React Router, React Thunks, TypeScript, Axios, SCSS Modules.
 
-#### Was developed:
+## Was developed:
 - Design and layout of the project
 - Project architecture
 - Adaptive layout
